@@ -10,11 +10,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="Container">
-            <div class="welcome-text">
-                <H1>Welcome to my Site</H1>
-                <p>This is a sample site to practice HTML and CSS</p>
-            </div>
+        
+        <div class="welcome-text">
+            <H1>Welcome to my Site</H1>
+            <p>This is a sample site to practice HTML and CSS</p>
         </div>
+        <div class="user-info">
+            <label for="fname">
+                First name
+                <form action="POST">
+                    <input type="text" id="fname" name="fname" placeholder="John"><br>
+                </form>
+            </label>
+            <br>
+            <label for="lname">
+                Last name
+                <form action="POST">
+                    <input type="Text" id="lname" name="lname" placeholder="Doe">
+                </form>
+            </label>
+        </div>
+
+
     </body>
 </html>
